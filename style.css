@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(126, 118, 118);
+}
+
+#target {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: absolute;
+}
+
+.board {
+    left: 100px;
+    top: 150px;
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    position: absolute;
+}
+
+.boardCell {
+    position: relative;
+    border: 1px solid black;
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+button {
+    padding: 0;
+    margin-left: 100px;
+    /* margin-top: 30px; */
+    background-color: indigo;
+    border-radius: 15px;
+    padding: 0 15px;
+}
+
+.buttonText {
+    margin-top: 5px;
+    font-size: 30px;
+    color: lightcoral;
+}
+
+.smile {
+    font-size: 70px;
+    color: lightcoral;
+}
